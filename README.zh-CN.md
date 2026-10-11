@@ -1,8 +1,8 @@
-# Codex 一次性进程生命周期管理
+# Codex-OneShot-Reaper：一次性进程回收
 
-在有限的 Windows PowerShell 命令启动时，为它创建独立的 Windows Job Object。
-根命令正常结束、失败或管理器崩溃后，Windows 会回收该组残留的子进程。
-现有进程从不加入回收组。
+Codex-OneShot-Reaper 用于回收有限 Windows PowerShell 命令留下的子进程。
+它会为每个明确选择的一次性命令创建独立的 Windows Job Object；根命令结束或
+管理器崩溃后，Windows 会回收该组残留子进程。现有进程不会加入回收组。
 
 ## 核心边界
 
