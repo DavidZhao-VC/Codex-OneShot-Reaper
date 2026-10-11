@@ -1,0 +1,15 @@
+# Local registrations contain commands, paths and chat identifiers.
+.codex-process-lifecycle/
+catalog/
+events/
+test_runs/
+backups/
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+hooks.local.toml
+installation.json
+verification.json
+.env
+.env.*
