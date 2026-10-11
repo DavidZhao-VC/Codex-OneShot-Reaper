@@ -1,4 +1,4 @@
-# Codex One-Shot Lifecycle
+# Codex OneShot Reaper
 
 Opt-in process cleanup for finite local Windows PowerShell commands. Each opted-in
 command starts in a new Windows Job Object. When its root command finishes, or its
